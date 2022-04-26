@@ -5,7 +5,9 @@ from django.urls import reverse
 # import datetime
 # from datetime import date,datetime
 from ckeditor.fields import RichTextField
-from ckeditor_uploader.fields import RichTextUploadingField
+
+
+
 class Category(models.Model):
    name = models.CharField(max_length=255)
 
