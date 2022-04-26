@@ -1,6 +1,3 @@
-from distutils.command.upload import upload
-from tkinter import CASCADE
-from turtle import mode
 from django.db import models
 from django.contrib.auth.models import User
 from django.urls import reverse
