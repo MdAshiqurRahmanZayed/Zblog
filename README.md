@@ -11,7 +11,7 @@ $ cd Zblog
 Create a virtual environment to install dependencies in and activate it:
 
 ```sh
-$ virtualenv test  
+$ python -m venv test
 $ source test/bin/activate
 ```
 Then install the dependencies:
@@ -35,5 +35,5 @@ $ python manage.py runserver
 
 superuser:
 username:admin
-password:superuser
+password:1234
 
