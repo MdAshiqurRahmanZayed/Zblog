@@ -33,7 +33,5 @@ $ python manage.py createsuperuser
 $ python manage.py runserver
 ```
 
-superuser:
-username:admin
-password:1234
+
 
